@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2/10/2018 11:29:29 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="mx.ipn.bean.Profesor" table="Profesor" catalog="gestoracademia" optimistic-lock="version">
+        <id name="curp" type="string">
+            <column name="curp" length="18" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombre" type="string">
+            <column name="nombre" length="45" not-null="true" />
+        </property>
+        <property name="primerApellido" type="string">
+            <column name="primer_apellido" length="25" not-null="true" />
+        </property>
+        <property name="segundoApellido" type="string">
+            <column name="segundo_apellido" length="20" />
+        </property>
+        <property name="correoElectronico" type="string">
+            <column name="correo_electronico" length="45" not-null="true" />
+        </property>
+        <property name="activo" type="byte">
+            <column name="activo" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

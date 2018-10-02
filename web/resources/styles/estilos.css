@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18/07/2018, 11:27:44 AM
+    Author     : gabrielaalejandraperez
+*/
+
+body{
+    /*background-image: url(../images/fondo.jpg);*/
+    font-family: serif;
+    color: white;
+} 
+
+h1{
+    margin-bottom: 20px;
+    color: #558C2E;
+}
+
+
+#contenedor{
+    overflow:hidden;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    height: 60%;
+    padding-left: 2%;
+    padding-right: 2%;
+    /*background-color: #EF9813;*/
+}
+
+#header{
+    width: 50%;
+    height: 60%;
+    /*border: 2px solid black;*/
+    margin: 0 auto;
+}
+
+/*#menu{
+   width: 10%;
+   height: 60%;
+   float: left;
+   padding-bottom: 5px;
+   padding-top: 5px;
+}*/
+
+#body{
+    width: 65%;
+    margin-bottom: 20px;
+    /*   float: right;*/
+}
+
+#footer{
+    margin: 0 auto;
+    width: 80%;
+    font-size: 15px;
+    /*background-color: #519955;*/
+}
+
+.campo{
+    margin-bottom: 15px;
+    height: 40px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.boton{
+    border-radius: 8px;
+    margin-bottom:5px;
+    background-color: #519955;
+    color: white;
+    width: 120px;
+    height: 30px;
+}
+
+.resultado{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color:black;
+}
